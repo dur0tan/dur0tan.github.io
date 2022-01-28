@@ -65,7 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Web developer based in Havana, so you only have to set it up once, and get beautiful results forever.
+                Web developer based in Havana, technology passionate, team worker, challenge lover.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>

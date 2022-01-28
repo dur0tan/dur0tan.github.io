@@ -50,8 +50,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Create the site of your dreams',
+    paragraph: 'Working with some of the best technologies in the industry to help you create your dreamed site.'
   };
 
   return (
@@ -77,7 +77,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Vue
                     </h4>
                   <p className="m-0 text-sm">
                   Open-source model–view–viewmodel front end JavaScript framework for building user interfaces and SPAs created by Evan You.
