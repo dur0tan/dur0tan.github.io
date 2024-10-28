@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container">
         <h3 className="sitename">Alejandro Durán</h3>
         <p>
-          Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.
+          Temet Nosce
         </p>
         <div className="social-links d-flex justify-content-center">
           <a href="#">
