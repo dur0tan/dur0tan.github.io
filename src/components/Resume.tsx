@@ -63,7 +63,7 @@ const Resume = () => {
             <h3 className="resume-title">Educación</h3>
             {educationList.map((experienceElement) => {
               return (
-                <div className="resume-item">
+                <div key={experienceElement.workTitle} className="resume-item">
                   <h4>{experienceElement.workTitle}</h4>
                   <h5>
                     {experienceElement.startDate} - {experienceElement.endDate}
@@ -83,7 +83,7 @@ const Resume = () => {
             <h3 className="resume-title">Experiencia Profesional</h3>
             {experienceList.map((experienceElement) => {
               return (
-                <div className="resume-item">
+                <div key={experienceElement.workTitle} className="resume-item">
                   <h4>{experienceElement.workTitle}</h4>
                   <h5>
                     {experienceElement.startDate} - {experienceElement.endDate}
