@@ -11,7 +11,7 @@ const Banner = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Designer', 'Developer', 'Freelancer', 'Photographer'],
+      strings: ['Designer', 'Developer', 'Freelancer', 'Solver'],
       loop: true,
       typeSpeed: 100,
       backSpeed: 50,

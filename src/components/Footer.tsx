@@ -17,6 +17,7 @@ const Footer = () => {
             <i className="bi bi-linkedin"></i>
           </a>
         </div>
+        {/* Footer con copyright NO MODIFICAR!!! */}
         <div className="container">
           <div className="copyright">
             <span>Copyright</span> <strong className="px-1 sitename">Alex Smith</strong>{' '}
