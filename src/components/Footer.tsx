@@ -26,6 +26,9 @@ const Footer = () => {
           <div className="credits">
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
+          <div className="credits">
+            Picture by <a href="https://freepik.com/">Freepick</a>
+          </div>
         </div>
       </div>
     </footer>
