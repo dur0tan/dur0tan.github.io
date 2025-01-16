@@ -3,7 +3,7 @@ const Contact = () => {
     <section id="contact" className="contact section">
       <div className="container section-title" data-aos="fade-up">
         <h2>Contáctenos</h2>
-        <p>Puede encontrarnos en</p>
+        <p>¿Tienes una idea o proyecto en mente? No dudes en ponerte en contacto conmigo. Estoy aquí para ayudarte a convertir tus metas digitales en realidad.</p>
       </div>
 
       <div className="container" data-aos="fade" data-aos-delay="100">
@@ -27,7 +27,7 @@ const Contact = () => {
               <i className="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Escribanos</h3>
-                <p>aleduranenri@gmail.com</p>
+                <p>samplemail@gmail.com</p>
               </div>
             </div>
           </div>

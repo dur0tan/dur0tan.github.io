@@ -5,9 +5,7 @@ const About = () => {
     <section id="about" className="about section">
       <div className="container section-title" data-aos="fade-up">
         <h2>Sobre mí</h2>
-        <p>
-          Temet Nosce
-        </p>
+        <p>Conoce más sobre mi trayectoria profesional, mi pasión por el desarrollo web y lo que me motiva a crear soluciones digitales innovadoras que marcan la diferencia.</p>
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -18,20 +16,20 @@ const About = () => {
           <div className="col-lg-8 content">
             <h2>Frontend Web Developer</h2>
             <p className="fst-italic py-3">
-              Desarrollador web de la Habana, apasionado de la tecnología y el aprendizaje. Estudió en la Universidad
-              Tecnológica de la Habana “José Antonio Echeverría” graduándose como Ingeniero Informático en 2019. Centró
-              sus estudios en el diseño y desarrollo de aplicaciones web, campo favorito. Desde entonces continúa
-              trabajando y estudiando, programando como desarrollador móvil y full-stack. Disfruta trabajar en equipo,
-              dar y recibir feedback y los nuevos proyectos desafiantes. Se especializa en el trabajo con frameworks
-              front-end como Angular, Vue y React. Domina frameworks back-end como Spring y NodeJS. Posee un buen nivel
-              de inglés, siendo perfectamente capaz de leer, escribir y comunicarse.
+              Soy un jóven desarrollador web cubano radicado en Madrid, apasionado de la tecnología y el aprendizaje. Mi
+              especialidad es el diseño y desarrollo front-end de aplicaciones web con frameworks Javascript como
+              Angular, React y Vue. He ejercido ocasionalmente como desarrollador full-stack complementando mis
+              conocimientos con frameworks backend como Express y NestJS. Disfruto trabajar en equipo, dar y recibir
+              feedback y los nuevos proyectos desaﬁantes. Poseo un buen nivel de inglés (avalado por EF SET) siendo
+              perfectamente capaz de leer, escribir y comunicarme. Conozco los fundamentos de SCRUM (avalado por
+              CertiProf), habiendome integrado con éxito a numerosos equipos ágiles.
             </p>
             <div className="row">
               <div className="col-lg-6">
                 <ul>
                   <li>
-                     {/* TODO Posible emailto*/}
-                     <i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>aleduranenri@gmail.com</span>
+                    {/* TODO Posible emailto*/}
+                    <i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>samplemail@gmail.com</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i> <strong>Sitio web:</strong> <span>dur0tan.github.io</span>

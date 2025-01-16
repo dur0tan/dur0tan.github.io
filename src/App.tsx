@@ -15,7 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import About from './components/About';
-import Stats from './components/Stats';
+// import Stats from './components/Stats';
 import Banner from './components/Banner';
 import Resume from './components/Resume';
 import Skills from './components/Skills';
@@ -158,7 +158,7 @@ function App() {
       <main className="main">
         <Banner></Banner>
         <About></About>
-        <Stats></Stats>
+        {/* <Stats></Stats> */}
         <Skills></Skills>
         <Resume></Resume>
         <Portfolio></Portfolio>

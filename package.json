@@ -33,6 +33,9 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
+    "@types/aos": "^3.0.7",
+    "@types/imagesloaded": "^4.1.6",
+    "@types/isotope-layout": "^3.0.14",
     "@types/node": "^22.8.1",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.1",

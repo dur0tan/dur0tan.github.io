@@ -17,7 +17,7 @@ const Skills = () => {
     <section id="skills" className="skills section">
       <div className="container section-title" data-aos="fade-up">
         <h2>Habilidades</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Desde la programación hasta el diseño, estas son las herramientas, lenguajes y tecnologías que utilizo para dar vida a proyectos digitales de alta calidad</p>
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">

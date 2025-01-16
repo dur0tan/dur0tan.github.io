@@ -4,8 +4,8 @@ const Resume = () => {
   const educationList: Experience[] = [
     {
       workTitle: 'Ingeniero INformático',
-      startDate: '09-2014',
-      endDate: '07-2019',
+      startDate: '09/2014',
+      endDate: '07/2019',
       companyData: 'Universidad Tecnológica de la Habana “José Antonio Echeverría”, CUJAE, Cuba',
       workDescription: 'Trabajó en el desarrollo tanto del front-end (JSF, Primefaces), como del back-end de la aplicación escrita en Java. Estudió y aplicó algoritmos metaheurísticos en el problema de formación de equipos.',
     },
@@ -14,7 +14,7 @@ const Resume = () => {
   const experienceList: Experience[] = [
     {
       workTitle: 'Desarrollador de Software Senior',
-      startDate: '10-2021',
+      startDate: '10/2021',
       endDate: 'Actualidad',
       companyData: 'SOAINT, Madrid, España',
       workDescription:
@@ -22,8 +22,8 @@ const Resume = () => {
     },
     {
       workTitle: 'Consultor Exteno',
-      startDate: '04-2023',
-      endDate: '12-2023',
+      startDate: '04/2023',
+      endDate: '12/2023',
       companyData: 'INDRA, Madrid, España',
       workDescription:
         'Trabajó con el equipo de Transformación Digital como consultor externo/líder técnico en el desarrollo frontend de una aplicación para la Tesorería General de la Seguridad Social. Participó tanto en procesos de estimación como de desarrollo. Trabajó con los lenguajes esenciales de la web (HTML5, CSS3, Javascript) y herramientas de gestión de proyectos y código (Git, Jira, GitLab).',
@@ -35,35 +35,17 @@ const Resume = () => {
       <div className="container section-title" data-aos="fade-up">
         <h2>Educación y experiencia </h2>
         <p>
-          Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-          in iste officiis commodi quidem hic quas.
+          Desde mis primeros pasos en la tecnología hasta mi experiencia profesional actual, esta es la base que me respalda como desarrollador web.
         </p>
       </div>
 
       <div className="container">
         <div className="row">
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 className="resume-title">Resumen</h3>
-            <div className="resume-item pb-0">
-              <h4>Alejandro Durán</h4>
-              <p>
-                <em>
-                  Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing
-                  user-centered digital/print marketing material from initial concept to final, polished deliverable.
-                </em>
-              </p>
-              <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
-            </div>
-
             <h3 className="resume-title">Educación</h3>
             {educationList.map((experienceElement) => {
               return (
-                <div key={experienceElement.workTitle} className="resume-item">
+                <div key={experienceElement.workTitle} className="resume-item pb-0">
                   <h4>{experienceElement.workTitle}</h4>
                   <h5>
                     {experienceElement.startDate} - {experienceElement.endDate}

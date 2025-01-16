@@ -71,7 +71,7 @@ const Portfolio = () => {
       <div className="container section-title" data-aos="fade-up">
         <h2>Portafolio</h2>
         <p>
-          Algunos de mis proyectos.
+        Descubre algunos de los trabajos que he realizado para clientes de diferentes sectores. Diseño, desarrollo y funcionalidad, todo en uno.
         </p>
       </div>
 

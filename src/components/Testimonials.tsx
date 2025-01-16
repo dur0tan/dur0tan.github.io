@@ -49,7 +49,7 @@ const Testimonials = () => {
     <section id="testimonials" className="testimonials section">
       <div className="container section-title" data-aos="fade-up">
         <h2>Testimonios</h2>
-        <p>Algunas opiniones sobre mi</p>
+        <p>Lee los testimonios de clientes satisfechos que confiaron en mí para llevar a cabo sus ideas y transformarlas en soluciones digitales reales.</p>
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
